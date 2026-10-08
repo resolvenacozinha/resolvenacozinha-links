@@ -14,7 +14,11 @@ Página estática (HTML + JSON, sem backend) que lista os 10 produtos com botão
 ## Preencher os links
 Em `links.json`, para cada produto, cole em `links.tt`, `links.ig` e `links.yt` o link gerado no portal do programa com o sub_id correspondente (`tt01`, `ig01`, `yt01` para o produto 01, e assim por diante). Mercado Livre: se o painel não oferecer sub_id, use o mesmo link nos três campos.
 
-## Hospedar (grátis, 5 minutos)
+## Onde está no ar
+Repositório público `resolvenacozinha/resolvenacozinha-links` (GitHub Pages, raiz da branch main):
+`https://resolvenacozinha.github.io/resolvenacozinha-links/`. Publicar/atualizar: `python scripts/publicar_links.py` (ver docstring; `--set NN tt|ig|yt|ml URL` troca um link e publica). O clone de trabalho fica em `D:/Projects/resolvenacozinha-links` e usa só a credencial do `gh` (conta resolvenacozinha).
+
+## Hospedar em outro lugar (alternativas)
 Opção A — **GitHub Pages:** crie um repositório público só com esta pasta (ou use a pasta `apps/links` como fonte do Pages) → Settings → Pages → Deploy from branch. URL do tipo `usuario.github.io/resolvenacozinha`.
 Opção B — **Cloudflare Pages:** conecte o repositório ou faça upload direto da pasta. Permite domínio próprio (`resolvenacozinha.com.br`) e tem analytics gratuito.
 Opção C — enquanto não hospeda: Beacons/Linktree com um botão por produto (sem sub_id por rede).
