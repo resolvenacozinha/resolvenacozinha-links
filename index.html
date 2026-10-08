@@ -58,7 +58,8 @@
     ['Instagram', p.instagram], ['TikTok', p.tiktok], ['YouTube', p.youtube]
   ].filter(([, u]) => u).map(([n, u]) => `<a href="${u}" target="_blank" rel="noopener">${n}</a>`).join('');
   const lista = document.getElementById('lista');
-  const prods = data.produtos.filter(x => x.links[canal] || x.fallback);
+  // Só produtos ativos (ativo !== false) e com algum link. Shopee fica oculta até a aprovação do programa.
+  const prods = data.produtos.filter(x => x.ativo !== false && (x.links[canal] || x.fallback));
   if (!prods.length) { lista.innerHTML = '<p class="vazio">Links em breve.</p>'; return; }
   lista.innerHTML = prods.map(x => {
     const href = x.links[canal] || x.links.ig || x.fallback;

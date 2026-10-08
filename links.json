@@ -20,7 +20,8 @@
         "yt": "https://meli.la/1dDnxhG"
       },
       "fallback": "https://www.mercadolivre.com.br/p/MLB62321972",
-      "destaque": true
+      "destaque": true,
+      "ativo": true
     },
     {
       "id": "02",
@@ -33,7 +34,8 @@
         "ig": "https://meli.la/2m4yQKt",
         "yt": "https://meli.la/2m4yQKt"
       },
-      "fallback": "https://www.mercadolivre.com.br/p/MLB61381712"
+      "fallback": "https://www.mercadolivre.com.br/p/MLB61381712",
+      "ativo": true
     },
     {
       "id": "03",
@@ -46,7 +48,8 @@
         "ig": "",
         "yt": ""
       },
-      "fallback": "https://shopee.com.br/product/393270715/17892385696"
+      "fallback": "https://shopee.com.br/product/393270715/17892385696",
+      "ativo": false
     },
     {
       "id": "04",
@@ -59,7 +62,8 @@
         "ig": "",
         "yt": ""
       },
-      "fallback": "https://shopee.com.br/product/372753581/21299367155"
+      "fallback": "https://shopee.com.br/product/372753581/21299367155",
+      "ativo": false
     },
     {
       "id": "05",
@@ -72,7 +76,8 @@
         "ig": "",
         "yt": ""
       },
-      "fallback": "https://shopee.com.br/product/943206066/25391116750"
+      "fallback": "https://shopee.com.br/product/943206066/25391116750",
+      "ativo": false
     },
     {
       "id": "06",
@@ -85,7 +90,8 @@
         "ig": "https://meli.la/1ageYR4",
         "yt": "https://meli.la/1ageYR4"
       },
-      "fallback": "https://www.mercadolivre.com.br/p/MLB41302044"
+      "fallback": "https://www.mercadolivre.com.br/p/MLB41302044",
+      "ativo": true
     },
     {
       "id": "07",
@@ -98,7 +104,8 @@
         "ig": "",
         "yt": ""
       },
-      "fallback": "https://shopee.com.br/product/526615488/23096726971"
+      "fallback": "https://shopee.com.br/product/526615488/23096726971",
+      "ativo": false
     },
     {
       "id": "08",
@@ -111,7 +118,8 @@
         "ig": "",
         "yt": ""
       },
-      "fallback": "https://shopee.com.br/product/1041517511/23597911235"
+      "fallback": "https://shopee.com.br/product/1041517511/23597911235",
+      "ativo": false
     },
     {
       "id": "09",
@@ -124,7 +132,8 @@
         "ig": "",
         "yt": ""
       },
-      "fallback": "https://shopee.com.br/product/732131461/23798119171"
+      "fallback": "https://shopee.com.br/product/732131461/23798119171",
+      "ativo": false
     },
     {
       "id": "10",
@@ -137,7 +146,8 @@
         "ig": "",
         "yt": ""
       },
-      "fallback": "https://shopee.com.br/product/343246764/22897722069"
+      "fallback": "https://shopee.com.br/product/343246764/22897722069",
+      "ativo": false
     }
   ]
 }
