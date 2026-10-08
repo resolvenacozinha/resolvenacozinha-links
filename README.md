@@ -11,6 +11,9 @@ Página estática (HTML + JSON, sem backend) que lista os 10 produtos com botão
 - Enquanto um produto não tem link de afiliado, o botão usa `fallback` (link normal da loja, sem comissão). **Troque pelos links de afiliado assim que a Shopee e o Mercado Livre aprovarem.**
 - Aviso de #publi fixo no topo (exigência das redes e do CONAR). Quando entrar a Amazon, acrescentar a frase de associado no `aviso`.
 
+## Ativar/ocultar produtos
+Cada produto em `links.json` tem `"ativo": true|false`. Produto com `ativo: false` não aparece na página (usado para a Shopee até a aprovação do programa, 08/10/2026). Para reativar: mude para `true` e publique.
+
 ## Preencher os links
 Em `links.json`, para cada produto, cole em `links.tt`, `links.ig` e `links.yt` o link gerado no portal do programa com o sub_id correspondente (`tt01`, `ig01`, `yt01` para o produto 01, e assim por diante). Mercado Livre: se o painel não oferecer sub_id, use o mesmo link nos três campos.
 
